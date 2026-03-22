@@ -1,0 +1,24 @@
+# Pneumonia Detection from Chest X-Ray Images
+
+## Overview
+This project uses Convolutional Neural Networks (CNN) to detect pneumonia from chest X-ray images.
+
+## Technologies
+- Python
+- TensorFlow / Keras
+- Matplotlib
+- Seaborn
+
+## Dataset
+Chest X-Ray Pneumonia dataset from Kaggle.
+
+## Model Architecture
+CNN with Conv2D, MaxPooling, Dropout, and Dense layers.
+
+## Results
+Accuracy achieved: ~93%
+
+## Visualizations
+- Training Accuracy vs Epochs
+- Loss vs Epochs
+- Confusion Matrix
