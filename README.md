@@ -27,6 +27,21 @@ AI Pneumonia Detection is a **deep learning-based system** to classify chest X-r
 
 ## 🏁 Getting Started
 
+### Download Instructions
+The dataset is available on [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia):
+
+1. **Manually:**
+   - Download the `.zip` file from Kaggle.
+   - Extract it and place the contents into the `data/` folder:
+
+2. **Using Kaggle CLI (optional, fully reproducible):**
+```bash
+pip install kaggle
+mkdir data && cd data
+kaggle datasets download -d paultimothymooney/chest-xray-pneumonia
+unzip chest-xray-pneumonia.zip
+cd ..
+
 ### Clone Repository
 ```bash
 git clone https://github.com/SrishtiLodhi/AI-Pneumonia-Detection.git
